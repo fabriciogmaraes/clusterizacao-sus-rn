@@ -1,2 +1,8 @@
+# Ignorar arquivos pesados e ambientes
 *.csv
 .venv/
+
+# EXCEÇÕES (Permitir subir as bases tratadas e os resultados finais)
+!base_sus_rn_onehot.csv
+!base_sus_rn_frequencia.csv
+!resultados_*.csv
